@@ -1,0 +1,47 @@
+body {
+    background-color: palegoldenrod;
+}
+div {
+    display: block;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.wall {
+    background-image: url("PNG/Environment/environment_04.png");
+}
+
+.floor {
+    background-image: url("PNG/Ground/ground.png");
+}
+
+.goal {
+    background-image: url("PNG/Crates/crate_30.png");
+}
+
+.player {
+    background-image: url("PNG/playerOnTheGround.png");
+}
+
+.box {
+    background-image: url("PNG/Crates/crate_05.png");
+}
+
+.boxOnGoalSquare{
+    background-image: url("PNG/Crates/crate_06.png");
+}
+
+.playerOnGoalSquare{
+    background-image: url("PNG/playerOnGoalSquare.png");
+}
+

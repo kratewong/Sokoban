@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sokoban Game</title>
+    <meta name="description" content="The Sokoban Game">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="sokoban.js" defer></script>
+    <link rel="stylesheet" href="sokoban.css">
+</head>
+<body onkeyup="checkKeyboard(event)">
+    <div>
+    <h1>Sokoban</h1>
+    <span>Switch Level: </span><select id="selection" onchange="switchLevel()"></select>
+    <br>
+    <span id="currentLevel"></span><br>
+    <span id="steps"></span><br><br><br>
+    <button id="resetLevel" onclick="resetLevel();">Reset the level</button><br><br><br>
+    <table id="gamePrint"></table>
+    </div>
+</body>
+</html>
